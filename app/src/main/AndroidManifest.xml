@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlushOps">
         <activity
+            android:name=".VisitsActivity"
+            android:exported="false"
+            android:label="@string/visits" />
+        <activity
+            android:name=".MachinesActivity"
+            android:exported="false"
+            android:label="@string/machines" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="plushops_primary">#84D5D1</color>
+    <color name="plushops_on_primary">#003736</color>
+    <color name="plushops_primary_container">#164E4D</color>
+    <color name="plushops_on_primary_container">#A0EFEB</color>
+    <color name="plushops_background">#0E1514</color>
+    <color name="plushops_on_surface">#DEE4E2</color>
+    <color name="plushops_on_surface_variant">#BFC9C6</color>
+</resources>

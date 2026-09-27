@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PlushOps</string>
+    <string name="app_description">Controle de máquinas de pelúcia</string>
+    <string name="machines">Máquinas</string>
+    <string name="visits">Visitas</string>
+    <string name="no_machines_title">Nenhuma máquina cadastrada</string>
+    <string name="no_machines_description">As máquinas cadastradas aparecerão aqui.</string>
+    <string name="no_visits_title">Nenhuma visita registrada</string>
+    <string name="no_visits_description">As visitas registradas aparecerão aqui.</string>
 </resources>

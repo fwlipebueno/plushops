@@ -1,8 +1,17 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
     <style name="Base.Theme.PlushOps" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/plushops_primary</item>
+        <item name="colorOnPrimary">@color/plushops_on_primary</item>
+        <item name="colorPrimaryContainer">@color/plushops_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/plushops_on_primary_container</item>
+        <item name="android:colorBackground">@color/plushops_background</item>
+        <item name="colorOnBackground">@color/plushops_on_surface</item>
+        <item name="colorSurface">@color/plushops_background</item>
+        <item name="colorOnSurface">@color/plushops_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/plushops_on_surface_variant</item>
+        <item name="android:navigationBarColor">@color/plushops_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.PlushOps" parent="Base.Theme.PlushOps" />

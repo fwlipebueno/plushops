@@ -7,13 +7,85 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/image_brand"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/bg_icon_container"
+        android:importantForAccessibility="no"
+        android:padding="22dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_plushops_mark"
+        app:tint="?attr/colorOnPrimaryContainer" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_brand" />
+
+    <TextView
+        android:id="@+id/text_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="@string/app_description"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_machines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:minHeight="56dp"
+        android:text="@string/machines"
+        android:textSize="16sp"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_machine"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_subtitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_visits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:minHeight="56dp"
+        android:text="@string/visits"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="16sp"
+        app:backgroundTint="?attr/colorPrimaryContainer"
+        app:cornerRadius="18dp"
+        app:icon="@drawable/ic_visits"
+        app:iconGravity="textStart"
+        app:iconPadding="12dp"
+        app:iconTint="?attr/colorOnPrimaryContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_machines" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
